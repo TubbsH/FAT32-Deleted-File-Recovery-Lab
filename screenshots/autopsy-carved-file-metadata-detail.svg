@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500">
+<rect width="1200" height="500" fill="#ececec"/>
+<rect x="25" y="25" width="1150" height="450" fill="#ffffff" stroke="#777" stroke-width="2"/>
+<text x="50" y="70" font-family="Arial" font-size="28" font-weight="bold" fill="#222">Autopsy — Carved File Metadata</text>
+<g font-family="Consolas, monospace" font-size="21" fill="#222">
+<text x="55" y="120">Name: /img_4.5-Exercise.001/$CarvedFiles/1/f0000000.bmp</text>
+<text x="55" y="160">Type: Carved</text>
+<text x="55" y="200">MIME Type: image/bmp</text>
+<text x="55" y="240">Size: 93,690 bytes</text>
+<text x="55" y="280">File Name Allocation: Unallocated</text>
+<text x="55" y="320">Metadata Allocation: Unallocated</text>
+<text x="55" y="360">MD5: 384434c542a308903839787fe3f325c1</text>
+<text x="55" y="400">SHA-256: cb5c8ab5f868c3a087f39188c1d5cf3a91853db5a3cbdd8d59439925676b82c55</text>
+<text x="55" y="440">Hash Lookup Results: UNKNOWN</text>
+</g>
+</svg>
