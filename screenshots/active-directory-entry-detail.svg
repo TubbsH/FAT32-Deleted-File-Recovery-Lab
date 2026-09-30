@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+<rect width="1200" height="420" fill="#20242c"/>
+<rect x="20" y="20" width="430" height="380" rx="8" fill="#2b313c"/>
+<rect x="470" y="20" width="710" height="380" rx="8" fill="#2b313c"/>
+<text x="40" y="55" fill="#ffffff" font-family="Arial" font-size="24" font-weight="bold">Active@ Disk Editor — Deleted FAT32 Directory Entry</text>
+<g font-family="Consolas, monospace" font-size="20" fill="#e8e8e8">
+<text x="40" y="100">Short entry: _NE.TXT</text>
+<text x="40" y="135">File extension: TXT</text>
+<text x="40" y="170">Attributes: 0x00</text>
+<text x="40" y="205">Created: 9/17/2016 6:39 PM</text>
+<text x="40" y="240">Modified: 7/7/1997 1:10 PM</text>
+<text x="40" y="275">First cluster (low word): 3</text>
+<text x="40" y="310">File size: 3,426 bytes</text>
+<text x="40" y="345">Deletion marker: E5</text>
+</g>
+<text x="495" y="70" fill="#9fd3ff" font-family="Consolas, monospace" font-size="19">Offset      00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15</text>
+<g font-family="Consolas, monospace" font-size="19" fill="#d7dde8">
+<text x="495" y="115">04194304    E5 4E 45 20 20 20 20 20 54 58 54 00 00 AC E9 94</text>
+<text x="495" y="150">04194320    31 49 00 00 00 00 48 69 E7 22 03 00 62 0D 00 00</text>
+</g>
+<rect x="490" y="88" width="32" height="40" fill="#d49a2a" opacity="0.45"/>
+<text x="495" y="205" fill="#f8d77a" font-family="Arial" font-size="19">E5 marks a deleted FAT directory entry.</text>
+<text x="495" y="245" fill="#ffffff" font-family="Arial" font-size="19">The remaining metadata still records cluster 3</text>
+<text x="495" y="275" fill="#ffffff" font-family="Arial" font-size="19">and a 3,426-byte file size, supporting recovery.</text>
+<text x="495" y="345" fill="#9da7b5" font-family="Arial" font-size="16">Readable reconstruction of the original coursework screenshot.</text>
+</svg>
