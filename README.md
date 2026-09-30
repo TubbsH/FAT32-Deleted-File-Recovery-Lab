@@ -45,53 +45,37 @@ These values were used to navigate FAT structures and understand how logical clu
 FAT32-Deleted-File-Recovery-Lab/
 ├── README.md
 ├── analysis/
-│   ├── fat32-structure.md
-│   ├── deleted-entry-recovery.md
-│   ├── cluster-chain-reconstruction.md
-│   └── findings.md
 ├── docs/
-│   ├── lab-methodology.md
-│   └── resume-project-entry.md
 ├── scripts/
-│   └── cluster_offset_calculator.py
 ├── screenshots/
-│   ├── active-directory-entry-detail.svg
-│   ├── ftk-file-properties-detail.svg
-│   └── autopsy-carved-file-metadata-detail.svg
+│   ├── active-disk-editor-directory-entry.png
+│   ├── ftk-imager-recovered-file.png
+│   └── autopsy-carved-file-metadata.png
 └── sample-data/
-    └── fat32_parameters.csv
 ```
 
 ## Important Note
 
 This repository documents coursework methodology and recreates the technical concepts from the lab. It does **not** distribute the original course disk image or proprietary lab materials.
 
-## Coursework Evidence
+## Coursework Screenshots
 
-The original screenshots recovered from the class work were difficult to read at GitHub's inline size, so the views below are clean, readable reconstructions of the exact information shown in those screenshots. The original screenshot files are still preserved in the repository.
+The images below are the original screenshots from the coursework, displayed without alteration.
 
-### Active@ Disk Editor — deleted FAT32 directory entry
+### Active@ Disk Editor — FAT32 directory-entry analysis
 
-![Readable FAT32 directory entry](screenshots/active-directory-entry-detail.svg)
+![Active Disk Editor directory entry](screenshots/active-disk-editor-directory-entry.png)
 
-This view highlights the deleted directory entry, the `E5` deletion marker, first cluster **3**, and file size **3,426 bytes**.
+Hex-level examination of the FAT32 image while locating and interpreting a deleted directory entry.
 
-### FTK Imager — recovered FILE1.JPG properties
+### FTK Imager — recovered FILE1.JPG
 
-![Readable FTK Imager file properties](screenshots/ftk-file-properties-detail.svg)
+![FTK Imager recovered file](screenshots/ftk-imager-recovered-file.png)
 
-FTK Imager validation shows `FILE1.JPG` with a file size of **7,547 bytes**, physical size of **8,192 bytes**, start cluster **3**, and start sector **8,200**.
+FTK Imager view showing the recovered `FILE1.JPG` and its file-system properties.
 
 ### Autopsy — carved file metadata
 
-![Readable Autopsy carved file metadata](screenshots/autopsy-carved-file-metadata-detail.svg)
+![Autopsy carved file metadata](screenshots/autopsy-carved-file-metadata.png)
 
-The Autopsy view documents a carved BMP in unallocated space, including its **93,690-byte** size and MD5/SHA-256 hash values.
-
-### Original Screenshots
-
-The original recovered class screenshots remain available here for reference:
-
-- [Active@ Disk Editor original screenshot](screenshots/active-disk-editor-directory-entry.jpg)
-- [FTK Imager original screenshot](screenshots/ftk-imager-recovered-file.jpg)
-- [Autopsy original screenshot](screenshots/autopsy-carved-file-metadata.jpg)
+Autopsy metadata view for a carved image from the forensic image, including file size and cryptographic hash values.
