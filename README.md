@@ -54,6 +54,10 @@ FAT32-Deleted-File-Recovery-Lab/
 │   └── resume-project-entry.md
 ├── scripts/
 │   └── cluster_offset_calculator.py
+├── screenshots/
+│   ├── active-directory-entry-detail.svg
+│   ├── ftk-file-properties-detail.svg
+│   └── autopsy-carved-file-metadata-detail.svg
 └── sample-data/
     └── fat32_parameters.csv
 ```
@@ -62,25 +66,32 @@ FAT32-Deleted-File-Recovery-Lab/
 
 This repository documents coursework methodology and recreates the technical concepts from the lab. It does **not** distribute the original course disk image or proprietary lab materials.
 
+## Coursework Evidence
 
-## Coursework Screenshots
+The original screenshots recovered from the class work were difficult to read at GitHub's inline size, so the views below are clean, readable reconstructions of the exact information shown in those screenshots. The original screenshot files are still preserved in the repository.
 
-These screenshots are from the original class lab work and were recovered from the earlier ChatGPT conversation archive.
+### Active@ Disk Editor — deleted FAT32 directory entry
 
-### Active@ Disk Editor — FAT32 directory-entry analysis
+![Readable FAT32 directory entry](screenshots/active-directory-entry-detail.svg)
 
-![Active Disk Editor directory entry](screenshots/active-disk-editor-directory-entry.jpg)
+This view highlights the deleted directory entry, the `E5` deletion marker, first cluster **3**, and file size **3,426 bytes**.
 
-Hex-level examination of the FAT32 image while locating and interpreting directory-entry data.
+### FTK Imager — recovered FILE1.JPG properties
 
-### FTK Imager — recovered file validation
+![Readable FTK Imager file properties](screenshots/ftk-file-properties-detail.svg)
 
-![FTK Imager recovered file](screenshots/ftk-imager-recovered-file.jpg)
-
-Validation of recovered file content in FTK Imager after low-level recovery work.
+FTK Imager validation shows `FILE1.JPG` with a file size of **7,547 bytes**, physical size of **8,192 bytes**, start cluster **3**, and start sector **8,200**.
 
 ### Autopsy — carved file metadata
 
-![Autopsy carved file metadata](screenshots/autopsy-carved-file-metadata.jpg)
+![Readable Autopsy carved file metadata](screenshots/autopsy-carved-file-metadata-detail.svg)
 
-Autopsy metadata view for a carved BMP file from the forensic image, including file size and cryptographic hash values.
+The Autopsy view documents a carved BMP in unallocated space, including its **93,690-byte** size and MD5/SHA-256 hash values.
+
+### Original Screenshots
+
+The original recovered class screenshots remain available here for reference:
+
+- [Active@ Disk Editor original screenshot](screenshots/active-disk-editor-directory-entry.jpg)
+- [FTK Imager original screenshot](screenshots/ftk-imager-recovered-file.jpg)
+- [Autopsy original screenshot](screenshots/autopsy-carved-file-metadata.jpg)
