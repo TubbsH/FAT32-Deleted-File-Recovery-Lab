@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640">
+<rect width="900" height="640" fill="#f4f4f4"/>
+<rect x="35" y="30" width="830" height="580" fill="#ffffff" stroke="#b8b8b8" stroke-width="2"/>
+<text x="60" y="72" font-family="Arial" font-size="28" font-weight="bold" fill="#222">FTK Imager — Recovered File Properties</text>
+<g font-family="Arial" font-size="23" fill="#222">
+<text x="70" y="130">Name</text><text x="360" y="130" fill="#666">FILE1.JPG</text>
+<text x="70" y="175">File Class</text><text x="360" y="175" fill="#666">Regular File</text>
+<text x="70" y="220">File Size</text><text x="360" y="220" fill="#666">7,547 bytes</text>
+<text x="70" y="265">Physical Size</text><text x="360" y="265" fill="#666">8,192 bytes</text>
+<text x="70" y="310">Start Cluster</text><text x="360" y="310" fill="#666">3</text>
+<text x="70" y="355">Start Sector</text><text x="360" y="355" fill="#666">8,200</text>
+<text x="70" y="400">Actual File</text><text x="360" y="400" fill="#666">True</text>
+<text x="70" y="445">8.3 Short Filename</text><text x="360" y="445" fill="#666">FILE1.JPG</text>
+<text x="70" y="490">Archive</text><text x="360" y="490" fill="#666">True</text>
+</g>
+<line x1="55" y1="95" x2="845" y2="95" stroke="#d0d0d0"/>
+<text x="60" y="565" font-family="Arial" font-size="18" fill="#777">Readable reconstruction of the original FTK Imager coursework screenshot.</text>
+</svg>
