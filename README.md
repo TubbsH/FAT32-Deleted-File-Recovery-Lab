@@ -61,3 +61,26 @@ FAT32-Deleted-File-Recovery-Lab/
 ## Important Note
 
 This repository documents coursework methodology and recreates the technical concepts from the lab. It does **not** distribute the original course disk image or proprietary lab materials.
+
+
+## Coursework Screenshots
+
+These screenshots are from the original class lab work and were recovered from the earlier ChatGPT conversation archive.
+
+### Active@ Disk Editor — FAT32 directory-entry analysis
+
+![Active Disk Editor directory entry](screenshots/active-disk-editor-directory-entry.jpg)
+
+Hex-level examination of the FAT32 image while locating and interpreting directory-entry data.
+
+### FTK Imager — recovered file validation
+
+![FTK Imager recovered file](screenshots/ftk-imager-recovered-file.jpg)
+
+Validation of recovered file content in FTK Imager after low-level recovery work.
+
+### Autopsy — carved file metadata
+
+![Autopsy carved file metadata](screenshots/autopsy-carved-file-metadata.jpg)
+
+Autopsy metadata view for a carved BMP file from the forensic image, including file size and cryptographic hash values.
