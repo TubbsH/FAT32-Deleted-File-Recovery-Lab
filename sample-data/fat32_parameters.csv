@@ -1,0 +1,6 @@
+parameter,value
+bytes_per_sector,512
+sectors_per_cluster,8
+cluster_size_bytes,4096
+fat1_offset_hex,0x0036D400
+fat2_offset_hex,0x003B6A00
